@@ -1,3 +1,4 @@
+
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -79,3 +80,5 @@ app.listen(PORT, () => {
         console.warn('⚠️  WARNING: No API_KEY set in environment variables!');
     }
 });
+
+export default app;
