@@ -1,5 +1,5 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
 name = "cvdemo-backend"
-
 compatibility_date = "2026-02-05"
 compatibility_flags = [
     "python_workers"
