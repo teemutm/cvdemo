@@ -1,9 +1,7 @@
-name = "cv-backend"
+name = "cvdemo-backend"
 
 compatibility_date = "2026-02-05"
 compatibility_flags = [
-    "nodejs_compat",
-    "enable_nodejs_http_modules",
-    "enable_nodejs_http_server_modules"
+    "nodejs_compat"
 ]
 main = "worker.js"

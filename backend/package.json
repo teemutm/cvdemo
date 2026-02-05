@@ -1,5 +1,5 @@
 {
-  "name": "cv-backend",
+  "name": "cvdemo-backend",
   "version": "1.0.0",
   "description": "Backend API for Teemu Mäkelä's CV website",
   "main": "server.js",
