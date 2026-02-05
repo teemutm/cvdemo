@@ -4,7 +4,6 @@ compatibility_date = "2026-02-05"
 compatibility_flags = [
     "nodejs_compat",
     "enable_nodejs_http_modules",
-    "enable_nodejs_http_server_modules",
-    "experimental"
+    "enable_nodejs_http_server_modules"
 ]
 main = "worker.js"
