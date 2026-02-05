@@ -4,6 +4,4 @@ compatibility_date = "2026-02-05"
 compatibility_flags = [
     "python_workers"
 ]
-main = "./main.py"
-base_dir = "."
-find_additional_modules = true
+main = "src/main.py"
