@@ -5,7 +5,6 @@ description = "Teemu's CV site backend"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi",
-    "json",
     "python-dotenv"
 ]
 
