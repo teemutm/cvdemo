@@ -1,6 +1,6 @@
 [project]
 name = "cvdemo-backend"
-version = "0.0.0"
+version = "0.0.1"
 description = "Teemu's CV site backend"
 requires-python = ">=3.12"
 dependencies = [
