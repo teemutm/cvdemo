@@ -46,6 +46,11 @@ async def verify_api_key(x_api_key: str = Header(None)):
         )
     return x_api_key
 
+
+@app.get("/")
+async def root():
+    return {"message": "CV Backend API"}
+
 # Health check (no authentication required)
 @app.get("/health")
 async def health_check():
