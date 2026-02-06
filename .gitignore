@@ -28,3 +28,4 @@ logs/
 *.log
 venv/
 __pycache__
+python_modules/
