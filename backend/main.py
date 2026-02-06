@@ -95,7 +95,7 @@ if __name__ == "__main__":
 # Cloudflare Workers
 else:
     import asgi
-    from cloudflare.workers import WorkerEntrypoint
+    from workers import WorkerEntrypoint
 
     class Default(WorkerEntrypoint):
         async def fetch(self, request):
