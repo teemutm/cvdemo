@@ -4,6 +4,7 @@ version = "0.0.1"
 description = "Teemu's CV site backend"
 requires-python = ">=3.12"
 dependencies = [
+    "cloudflare",
     "workers-py",
     "fastapi",
     "python-dotenv"
@@ -11,6 +12,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "cloudflare",
     "workers-py",
     "fastapi",
     "python-dotenv"
