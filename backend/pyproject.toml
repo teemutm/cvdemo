@@ -11,5 +11,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "workers-py",
-    "workers-runtime-sdk"
+    "workers-runtime-sdk",
+    "fastapi",
+    "python-dotenv"
 ]
