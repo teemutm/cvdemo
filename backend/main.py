@@ -1,17 +1,13 @@
 import os
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from datetime import datetime
-import json
-
-# Load data
-with open("cv_data.json", "r") as f:
-    cv_data = json.load(f)
+from cv_data import cv_data
 
 # Load environment variables
-#load_dotenv()
+load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 

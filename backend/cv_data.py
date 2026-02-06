@@ -1,6 +1,6 @@
-{
+cv_data = {
   "profile": {
-    "name": "Teemu M\u00e4kel\u00e4",
+    "name": "Teemu Mäkelä",
     "title": "Senior Cloud Architect",
     "summary": "I have over 15 years of experience ranging from Linux servers in local data centers to cloud services distributed on a global level. I enjoy designing services with load balancing, high availability and automation.",
     "location": "Finland"
@@ -26,7 +26,7 @@
         "Internal data platform with python cloud functions, big query databases, json documents to storage bucket",
         "Cloud agnostic AI Agent platform. Terraform, Cloudformation and Helm scripts to support AWS, GCP, Azure and any Kubernetes clusters."
       ],
-      "current": true
+      "current": True
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
       "website": "www.polarsquad.com",
       "description": "My team was modernizing applications for city services. My responsibility was to design and create modular AWS platform for multiple web applications. My solution was VPC networking with loadbalancing, ECS services with autoscaling and CI/CD pipelines for automated tests and deployments from Github pull requests. Infrastructure was created with Terraform modules that can be used across services with different parameters.",
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "website": "www.heeros.com",
       "description": "At Heeros we were modernizing old IBM Notes/Domino services into AWS. I created infrastructure for autoscaling ECS clusters and services like ApiGW, Lambda and DynamoDB with Terraform. I also migrated repositories from subversion to GitHub and designed new branching and versioning strategy for new micro services. We used CircleCI, Gradle scripts and Terraform to build Java into Docker containers, run tests and deploy services to AWS.",
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 4,
@@ -56,7 +56,7 @@
       "website": "www.zervant.com",
       "description": "Zervant is developing invoicing software with 10000 active users. I created deployment process for 15 micro services running Java/NodeJS. Services were migrated from Elastic Beanstalk to ECS cluster or to AWS Lambda with API Gateway. Services used backends such as S3, RDS, compose.io and DynamoDB. Deployments were done with Jenkins, Bitbucket pipelines and Docker Hub. Everything was put together with Terraform.",
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 5,
@@ -66,24 +66,24 @@
       "website": "www.solita.fi",
       "description": "As a part of a Solita Cloud Services team my job was to help and to coach development teams in infrastructure related tasks. I developed tools and processes to automate server infrastructure deployments and administration in Solita's private Cloud on VMware and AWS. It included server provision, software configuration, monitoring / alerting, log collecting and backups with tools like Ansible and Chef.",
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 6,
       "period": "4/2010 - 1/2014",
       "title": "Team Leader - Linux Services",
       "company": "Nebula Oy",
-      "website": null,
+      "website": None,
       "description": "My team provided infrastructure services to Nebula's major customers. It included systems design, administration and monitoring. I was working closely with sales teams and customers to ensure we were understanding customers needs and providing the best service we can.",
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 7,
       "period": "1/2008 - 4/2010",
       "title": "System Administrator",
       "company": "Nebula Oy",
-      "website": null,
+      "website": None,
       "description": "I was building and maintaining Nebula's Linux servers. I was part of our web hosting and major customers teams. My job included tasks from data center maintenance to building systems that included load balancing with servers in Helsinki, London and Singapore.",
       "keywords": [
         "Linux",
@@ -100,14 +100,14 @@
         "Zabbix"
       ],
       "highlights": [],
-      "current": false
+      "current": False
     },
     {
       "id": 8,
       "period": "2/2007 - 1/2008",
       "title": "System Administrator",
       "company": "Optinet Oy",
-      "website": null,
+      "website": None,
       "description": "Optinet was a media house that was building websites with their own CMS software. My responsibility was to deploy and maintain servers related to the CMS service and in our office infrastructure.",
       "keywords": [
         "OpenVZ",
@@ -117,7 +117,7 @@
         "mod-perl"
       ],
       "highlights": [],
-      "current": false
+      "current": False
     }
   ],
   "certificates": [
@@ -126,42 +126,42 @@
       "name": "Google Professional Cloud Architect",
       "issuer": "Google Cloud",
       "year": "2023 - 2027",
-      "active": true
+      "active": True
     },
     {
       "id": 2,
       "name": "AWS Certified DevOps Engineer - Professional",
       "issuer": "Amazon Web Services",
       "year": "2019 - 2025",
-      "active": true
+      "active": True
     },
     {
       "id": 3,
       "name": "Oracle DBA WS1",
       "issuer": "Oracle University",
       "year": "2013",
-      "active": false
+      "active": False
     },
     {
       "id": 4,
       "name": "Oracle DBA WS2",
       "issuer": "Oracle University",
       "year": "2013",
-      "active": false
+      "active": False
     },
     {
       "id": 5,
       "name": "Oracle WebCenter Sites 11g",
       "issuer": "Oracle University",
       "year": "2013",
-      "active": false
+      "active": False
     },
     {
       "id": 6,
       "name": "ITIL V3 Foundation",
       "issuer": "Wakaru Partners Oy",
       "year": "2011",
-      "active": false
+      "active": False
     }
   ],
   "education": [
