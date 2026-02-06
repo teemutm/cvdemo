@@ -1,0 +1,17 @@
+[project]
+name = "cvdemo-backend"
+version = "0.0.1"
+description = "Teemu's CV site backend"
+requires-python = ">=3.12"
+dependencies = [
+    "workers-py",
+    "fastapi",
+    "python-dotenv"
+]
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "fastapi",
+    "python-dotenv"
+]
